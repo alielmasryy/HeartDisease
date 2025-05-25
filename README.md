@@ -36,6 +36,7 @@ I am only including few examples of before and after clean up, as the rest can b
 * BEFORE:
 <img width="447" alt="Screenshot 2025-05-24 at 11 49 33 PM" src="https://github.com/user-attachments/assets/ffbb48f2-4338-49fc-8ebe-bf7f8484ecb1" />
 <img width="447" alt="Screenshot 2025-05-24 at 11 49 41 PM" src="https://github.com/user-attachments/assets/461ec7c7-d632-40f2-a04f-99e0db305d96" />
+
 * AFTER:
 <img width="447" alt="Screenshot 2025-05-24 at 11 50 55 PM" src="https://github.com/user-attachments/assets/3809e673-3d49-466e-932b-1defe3e39420" />
 <img width="447" alt="Screenshot 2025-05-24 at 11 51 12 PM" src="https://github.com/user-attachments/assets/e2d65741-9287-4782-8877-e1331e96e100" />
