@@ -44,35 +44,35 @@ I am only including few examples of before and after clean up, as the rest can b
 ### Results:
 * NOTE: I deemed the most important measurement in this case to be recall, more specifically in the positive (class 1) cases, so that was my focus for this project.
 
-* Logistic Regression:
-  Accuracy: 0.88
-  ROC AUC: 0.89
-  Recall (Class 0-No heart disease): 0.89
-  Precision: (Class 0): 0.91
-  Recall (Class 1-Heart disease): 0.88
-  Precision (Class 1): 0.84
-  F1 (Class 1): 0.86
-Conclusion: The logistic model performed well overall, particularly in maintaining a strong balance between precision and recall. The results also provided interpretability into how each feature contributes to the prediction, which is valuable in a clinical setting.
+#### Logistic Regression:
+ * Accuracy: 0.88
+ * ROC AUC: 0.89
+ * Recall (Class 0-No heart disease): 0.89
+ * Precision: (Class 0): 0.91
+ * Recall (Class 1-Heart disease): 0.88
+ * Precision (Class 1): 0.84
+ * F1 (Class 1): 0.86
+ * Conclusion: The logistic model performed well overall, particularly in maintaining a strong balance between precision and recall. The results also provided interpretability into how each feature contributes to the prediction, which is valuable in a clinical setting.
 
-* Support Vector Machine (SVM):
-  Accuracy: 0.85
-  ROC AUC: 0.92
-  Recall (Class 0-No heart disease): 0.92
-  Precision: (Class 0): 0.85
-  Recall (Class 1-Heart disease): 0.75
-  Precision (Class 1): 0.86
-  F1 (Class 1): 0.80
-Conclusion: The SVM model with a linear kernel was trained on the same processed data, including binary risk indicators and one-hot encoded features. Compared to logistic regression, the SVM showed slightly lower overall accuracy but a higher ROC AUC score, indicating better overall separation between the two classes. It also achieved higher precision for identifying heart disease cases, though at the cost of some recall.
+#### Support Vector Machine (SVM):
+  *  Accuracy: 0.85
+  *  ROC AUC: 0.92
+  *  Recall (Class 0-No heart disease): 0.92
+  *  Precision: (Class 0): 0.85
+  *  Recall (Class 1-Heart disease): 0.75
+  *  Precision (Class 1): 0.86
+ *   F1 (Class 1): 0.80
+ * Conclusion: The SVM model with a linear kernel was trained on the same processed data, including binary risk indicators and one-hot encoded features. Compared to logistic regression, the SVM showed slightly lower overall accuracy but a higher ROC AUC score, indicating better overall separation between the two classes. It also achieved higher precision for identifying heart disease cases, though at the cost of some recall.
 
-* Random Forest Classifier:
-  Accuracy: 0.88
-  ROC AUC: 0.94
-  Recall (Class 0-No heart disease): 0.90
-  Precision: (Class 0): 0.87
-  Recall (Class 1-Heart disease): 0.86
-  Precision (Class 1): 0.89
-  F1 (Class 1): 0.87
-Conclusion: The Random Forest Classifier was trained on processed data and included one-hot encoded features. It also included hyperparameter tuning which was done through
+#### Random Forest Classifier:
+ * Accuracy: 0.88
+ * ROC AUC: 0.94
+ * Recall (Class 0-No heart disease): 0.90
+ * Precision: (Class 0): 0.87
+ * Recall (Class 1-Heart disease): 0.86
+ * Precision (Class 1): 0.89
+ * F1 (Class 1): 0.87
+* Conclusion: The Random Forest Classifier was trained on processed data and included one-hot encoded features. It also included hyperparameter tuning which was done through
 GridSearch. The Random Forest provided strong results across all metrics but particularly performed well with recall and a high AUC score. We can also see a boost in accuracy and ROC AUC scores compared to SVM. This indicated good separation between classes, and it proved to be a robust model in my project.
 
 ## How to reproduce results
