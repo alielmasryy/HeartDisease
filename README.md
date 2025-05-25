@@ -37,8 +37,8 @@ I am only including few examples of before and after clean up, as the rest can b
 <img width="447" alt="Screenshot 2025-05-24 at 11 49 33 PM" src="https://github.com/user-attachments/assets/ffbb48f2-4338-49fc-8ebe-bf7f8484ecb1" />
 <img width="447" alt="Screenshot 2025-05-24 at 11 49 41 PM" src="https://github.com/user-attachments/assets/461ec7c7-d632-40f2-a04f-99e0db305d96" />
 * AFTER:
-<img width="734" alt="Screenshot 2025-05-24 at 11 50 55 PM" src="https://github.com/user-attachments/assets/3809e673-3d49-466e-932b-1defe3e39420" />
-<img width="707" alt="Screenshot 2025-05-24 at 11 51 12 PM" src="https://github.com/user-attachments/assets/e2d65741-9287-4782-8877-e1331e96e100" />
+<img width="447" alt="Screenshot 2025-05-24 at 11 50 55 PM" src="https://github.com/user-attachments/assets/3809e673-3d49-466e-932b-1defe3e39420" />
+<img width="447" alt="Screenshot 2025-05-24 at 11 51 12 PM" src="https://github.com/user-attachments/assets/e2d65741-9287-4782-8877-e1331e96e100" />
 
 ### Methods:
 * Logistic Regression - Logistic Regression was used as a starting point for modeling heart disease prediction. It is a simple, but powerful algorithm for binary classification problems. The model estimates the probability that a patient has heart disease based on their medical features. Because it provides interpretable coefficients, it also helps understand how each variable (like cholesterol or blood pressure) affects the likelihood of heart disease. The model was trained on the cleaned and feature-engineered dataset and evaluated using accuracy, precision, recall, F1-score, and the ROC AUC score to assess both its correctness and ability to distinguish between positive and negative cases.
