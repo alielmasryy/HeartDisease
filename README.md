@@ -19,3 +19,18 @@ errors and improve healthcare outcomes. This research contributes to the applica
 healthcare, specifically for heart disease prediction.
 
 ### Summary of the work done
+* Data:
+    * Input: ZIP File, description of hospital patients information(resting heart rate, age, cholestral, etc. )
+    * Output: Out of a list of all patients, which ones have a heart disease
+  * Size: A relatively small dataset with 14 columns and 303 rows
+ 
+#### Preprocessing / Clean up
+
+* A very small number of data points were missing so they were simply dropped as it did not have an impact in mode performance
+* New binary features were created to reflect high risk indicators based on clinical thresholds
+* Categorical features like sex, cp, and thal were encoded to allow the models to handle them effectively
+
+#### Data Visualization
+I am only including few examples of before and after clean up, as the rest can be seen when running the code
+
+* BEFORE: 
