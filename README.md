@@ -34,7 +34,11 @@ healthcare, specifically for heart disease prediction.
 I am only including few examples of before and after clean up, as the rest can be seen when running the code
 
 * BEFORE:
+<img width="447" alt="Screenshot 2025-05-24 at 11 49 33 PM" src="https://github.com/user-attachments/assets/ffbb48f2-4338-49fc-8ebe-bf7f8484ecb1" />
+<img width="447" alt="Screenshot 2025-05-24 at 11 49 41 PM" src="https://github.com/user-attachments/assets/461ec7c7-d632-40f2-a04f-99e0db305d96" />
 * AFTER:
+<img width="734" alt="Screenshot 2025-05-24 at 11 50 55 PM" src="https://github.com/user-attachments/assets/3809e673-3d49-466e-932b-1defe3e39420" />
+<img width="707" alt="Screenshot 2025-05-24 at 11 51 12 PM" src="https://github.com/user-attachments/assets/e2d65741-9287-4782-8877-e1331e96e100" />
 
 ### Methods:
 * Logistic Regression - Logistic Regression was used as a starting point for modeling heart disease prediction. It is a simple, but powerful algorithm for binary classification problems. The model estimates the probability that a patient has heart disease based on their medical features. Because it provides interpretable coefficients, it also helps understand how each variable (like cholesterol or blood pressure) affects the likelihood of heart disease. The model was trained on the cleaned and feature-engineered dataset and evaluated using accuracy, precision, recall, F1-score, and the ROC AUC score to assess both its correctness and ability to distinguish between positive and negative cases.
@@ -42,7 +46,7 @@ I am only including few examples of before and after clean up, as the rest can b
 * Random Forest Classifier - The Decision Tree model splits the data into groups based on different features. It splits the data based on feature thresholds, which makes it easy to interpret but susceptible to overfitting. To reduce complexity, the tree depth and minimum samples for a split were controlled. The model was evaluated using accuracy, precision, recall, F1-score, and ROC AUC to understand how well it identifies heart disease cases compared to the other models.
 
 ### Results:
-* NOTE: I deemed the most important measurement in this case to be recall, more specifically in the positive (class 1) cases, so that was my focus for this project.
+NOTE: I deemed the most important measurement in this case to be recall, more specifically in the positive (class 1) cases, so that was my focus for this project.
 
 #### Logistic Regression:
  * Accuracy: 0.88
@@ -52,6 +56,7 @@ I am only including few examples of before and after clean up, as the rest can b
  * Recall (Class 1-Heart disease): 0.88
  * Precision (Class 1): 0.84
  * F1 (Class 1): 0.86
+
  * Conclusion: The logistic model performed well overall, particularly in maintaining a strong balance between precision and recall. The results also provided interpretability into how each feature contributes to the prediction, which is valuable in a clinical setting.
 
 #### Support Vector Machine (SVM):
@@ -65,7 +70,8 @@ I am only including few examples of before and after clean up, as the rest can b
  * Conclusion: The SVM model with a linear kernel was trained on the same processed data, including binary risk indicators and one-hot encoded features. Compared to logistic regression, the SVM showed slightly lower overall accuracy but a higher ROC AUC score, indicating better overall separation between the two classes. It also achieved higher precision for identifying heart disease cases, though at the cost of some recall.
 
 #### Random Forest Classifier:
- * Accuracy: 0.88
+ * Accuracy:
+ 0.88
  * ROC AUC: 0.94
  * Recall (Class 0-No heart disease): 0.90
  * Precision: (Class 0): 0.87
