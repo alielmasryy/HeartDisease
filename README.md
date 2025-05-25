@@ -33,4 +33,5 @@ healthcare, specifically for heart disease prediction.
 #### Data Visualization
 I am only including few examples of before and after clean up, as the rest can be seen when running the code
 
-* BEFORE: 
+* BEFORE:
+  
