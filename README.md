@@ -107,9 +107,3 @@ I would like to explore other ensemble models which I felt could help improve re
 ### Overview of files 
  * https://archive.ics.uci.edu/ml/datasets/heart+disease
  * Scikit-learn, for model training, evaluation, and hyperparameter tuning
-   
- 
-  
-
-<img width="310" alt="Picture2" src="https://github.com/user-attachments/assets/265c7164-a21b-4aa1-b321-93d69c3e67d1" />
-
