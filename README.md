@@ -57,7 +57,11 @@ NOTE: I deemed the most important measurement in this case to be recall, more sp
  * Recall (Class 1-Heart disease): 0.88
  * Precision (Class 1): 0.84
  * F1 (Class 1): 0.86
- *  Confusion Matrix: <img width="310" alt="Picture1" src="https://github.com/user-attachments/assets/e28c9a72-a30a-40e7-856b-68b697368747" /> 
+
+
+ *  Confusion Matrix: <img width="310" alt="Picture1" src="https://github.com/user-attachments/assets/e28c9a72-a30a-40e7-856b-68b697368747" />
+
+   
  * Conclusion: The logistic model performed well overall, particularly in maintaining a strong balance between precision and recall. The results also provided interpretability into how each feature contributes to the prediction, which is valuable in a clinical setting.
 
 #### Support Vector Machine (SVM):
@@ -68,6 +72,8 @@ NOTE: I deemed the most important measurement in this case to be recall, more sp
   *  Recall (Class 1-Heart disease): 0.75
   *  Precision (Class 1): 0.86
  *   F1 (Class 1): 0.80
+
+   
  *  Confusion Matrix: <img width="310" alt="Picture2" src="https://github.com/user-attachments/assets/265c7164-a21b-4aa1-b321-93d69c3e67d1" />
  
  * Conclusion: The SVM model with a linear kernel was trained on the same processed data, including binary risk indicators and one-hot encoded features. Compared to logistic regression, the SVM showed slightly lower overall accuracy but a higher ROC AUC score, indicating better overall separation between the two classes. It also achieved higher precision for identifying heart disease cases, though at the cost of some recall.
@@ -81,6 +87,8 @@ NOTE: I deemed the most important measurement in this case to be recall, more sp
  * Recall (Class 1-Heart disease): 0.86
  * Precision (Class 1): 0.89
  * F1 (Class 1): 0.87
+
+   
  *  Confusion Matrix: <img width="310" alt="Picture3" src="https://github.com/user-attachments/assets/1727a9a5-0ed3-4792-a06e-8ab045d92fcd" />
 
  
