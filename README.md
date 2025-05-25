@@ -98,6 +98,6 @@ I would like to explore other ensemble models which I felt could help improve re
    
  
   
-<img width="257" alt="Picture1" src="https://github.com/user-attachments/assets/e28c9a72-a30a-40e7-856b-68b697368747" />
-<img width="257" alt="Picture2" src="https://github.com/user-attachments/assets/265c7164-a21b-4aa1-b321-93d69c3e67d1" />
-<img width="257" alt="Picture3" src="https://github.com/user-attachments/assets/1727a9a5-0ed3-4792-a06e-8ab045d92fcd" />
+<img width="310" alt="Picture1" src="https://github.com/user-attachments/assets/e28c9a72-a30a-40e7-856b-68b697368747" />
+<img width="310" alt="Picture2" src="https://github.com/user-attachments/assets/265c7164-a21b-4aa1-b321-93d69c3e67d1" />
+<img width="310" alt="Picture3" src="https://github.com/user-attachments/assets/1727a9a5-0ed3-4792-a06e-8ab045d92fcd" />
